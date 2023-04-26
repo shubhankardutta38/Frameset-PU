@@ -1,0 +1,143 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="mystyle.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: inline;
+            /* justify-content: center; */
+            align-items: center;
+            height: 100vh;
+            background-color: #151925;
+            font-family: sans-serif;
+            font-weight: bold;
+            justify-content: space-around;
+            height: fit-content;
+
+        }
+
+        .headmarq {
+            color: white;
+            display: flex;
+            justify-content: center;
+            margin: 30 0 0 0;
+            font-size: x-large;
+
+        }
+
+        .na {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .aaa {
+            height: 70px;
+            margin-top: 20px;
+            border-radius: 13px;
+        }
+
+        a {
+            position: relative;
+            display: inline-block;
+            padding: 25px 15px;
+            margin: 20px 10px;
+            color: #03e9f4;
+            text-decoration: none;
+            text-transform: uppercase;
+            transition: 0.9s;
+            /* letter-spacing: 2px; */
+            overflow: hidden;
+            margin-right: 20px;
+
+        }
+
+        a:hover {
+            background: #03e9f4;
+            color: #050801;
+            box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 200px #03e9f4;
+            -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+
+        }
+
+        a:nth-child(2) {
+            filter: hue-rotate(200deg);
+        }
+
+        a:nth-child(3) {
+            filter: hue-rotate(270deg);
+        }
+
+        a:nth-child(4) {
+            filter: hue-rotate(200deg);
+        }
+
+        a:nth-child(5) {
+            filter: hue-rotate(270deg);
+        }
+
+        a:nth-child(6) {
+            filter: hue-rotate(200deg);
+        }
+
+
+        a span {
+            position: absolute;
+            display: block;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <div class="headmarq">
+        <marquee behavior="alternate" scrollamount=10>Welcome to Presidency University</marquee>
+    </div>
+    <br>
+    <div class="na">
+        <img src="pulogo.png" alt="PU Logo" class="aaa">
+
+        <a href="about.html" target="bottom">
+            Home<span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+        <a href="academic.html" target="bottom">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Academics
+        </a>
+        <a href="facilities.html" target="bottom">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Facilities
+        </a>
+        <a href="login.html" target="bottom">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Login
+        </a>
+        <a href="Register.html" target="bottom">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Register
+        </a>
+    </div>
+</body>
+
+</html>
